@@ -13,14 +13,14 @@ Insert, update, and delete data in the library database while handling missing v
 - MySQL Workbench
 
 ## Project Structure
-- members - Insert, update and delete operations.
+- members - Insert, update and delet operations.
 - books - Clean book entries, handle NULLs.
 - records - Maintain borrow and return history.
 - staffs - Manage and update staff details.
 
-  ## Steps to run
-  - Open the MySQL workbench
-  - Select the database "USE library_db"
-  - Execute the INSERT, UPDATE and DELETE statements in the SQL script
-  - Verify the changes using "SELECT * FROM members", "SELECT * FROM books", "SELECT * FROM records", "SELECT * FROM staffs"
-  - Confirm that NULL values are handled, updated data is correct and deleted records are removed. 
+## Steps to run
+ - Open the MySQL workbench
+ - Select the database "USE library_db"
+ - Execute the INSERT, UPDATE and DELETE statements in the SQL script
+ - Verify the changes using "SELECT * FROM members", "SELECT * FROM books", "SELECT * FROM records", "SELECT * FROM staffs"
+ - Confirm that NULL values are handled, updated data is correct and deleted records are removed. 
